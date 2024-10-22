@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --exec tsx src/server.ts",
-    "build": "tsc && node ./src/copyEjs.js",
+    "build": "tsc && node./src/copyEjs.js",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
     "format": "prettier --write src",
-    "start": "node ./dist/server.js"
+    "start": "node dist/server.js"
   },
   "repository": {
     "type": "git",
